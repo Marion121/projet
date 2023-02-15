@@ -1,0 +1,235 @@
+/* GENERAL*/ 
+h1{
+    color: #4a7c96;
+}
+
+/* MENU */
+/*==================== Logo EPF ====================*/
+#epf img {
+    width: 15%;
+    height: auto;
+
+}
+
+/*==================== Menu====================*/
+#menu {
+    height: 38px;
+    background-image: url("./stockage/menu.png");
+    background-repeat: no-repeat;
+}
+
+#image-menu {
+    float: left;
+}
+
+#tmenu {
+    height: 38px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 11px;
+    font-family: "Arial";
+    color: white;
+}
+tr, td {
+    padding: 0px;
+    height: 38px;
+}
+.t-text {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.t-text:hover {
+    background-image: url(./stockage/menu-hover.png);
+    background-position: right 0% top 0%;
+    cursor: pointer
+}
+
+/*PARTIE : bloc présentation des différents outlis */ 
+
+.block_principal{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.different_TP{
+    width: 33%;
+}
+
+.B_Voir_TP{
+    right: 5%;
+}
+
+.img_p2{
+    width: 25px;
+}
+
+.B_Voir_TP{
+    float: right;
+    margin-right:  15%;
+    border-radius: 10px;
+}
+
+.losange{
+    color: rgb(35, 219, 75);
+}
+
+/* PARTIE : block bas (dernier TDs + A propos) */
+
+.block_bas{
+    display: flex;
+    margin-top: 5%;
+}
+
+/* SOUS - PARTIE :  dernier TDs*/
+
+.dernierTDs{
+    width: 64%;
+    padding-right: 5%;
+    padding-left: 2%;
+}
+
+ul{
+    list-style-type: none;
+    padding-left:  0;
+}
+
+li{
+    border-bottom: solid;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border-color: rgb(189, 188, 188);
+}
+
+.li_1{
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(189, 188, 188);
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+h2{
+    margin-top:  0;
+    margin-bottom:  0;
+    color: #7ba59d;
+}
+
+.date{
+    margin-top:  0;
+    margin-bottom:  0;
+    font-size: small;
+    color: rgb(85, 84, 84);
+
+}
+
+/* SOUS - PARTIE : A propos*/
+
+.a_propos{
+    width: 34%;
+    border-left: solid;
+    border-color: rgb(189, 188, 188);
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.text_propos{
+    border-top: solid ;
+    border-color: rgb(189, 188, 188);
+    padding-top: 2%;
+}
+
+/* PARTIE : bas */
+
+
+.img_footer{
+    width: 40%;
+}
+
+footer{
+    margin-top: 4%;
+    padding-top: 2%;
+    border-top : solid; 
+    border-color: rgb(189, 188, 188);
+}
+
+/* CSS DE LEOOOOO */ 
+
+.page{
+    width: 900px;
+    margin: auto;
+    padding: 1px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+header{
+    height: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+.logo{
+    height: 50%;
+    width: 25%;
+    position: absolute;
+}
+
+.logo img{
+    height: 100%;
+    width: 90%;
+}
+
+.navBar{
+    height: 50%;
+    width: 98%;
+    border-radius: 20px;
+    background-color: #066ea7FF;
+    border: solid 1px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    overflow: hidden;
+    border: solid 1px;
+    position: absolute;
+    align-items: center;
+}
+  
+.navBar ul li {
+   float: left;
+    
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+   background-color: #3E9ACC;
+}
+
+.image_banniere{
+    height: 100px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.image_banniere img{
+    height: 100%;
+    width: 100%;
+}
+
+#maison{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.active{
+    background-color: #085996FF;
+}
